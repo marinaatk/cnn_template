@@ -1,0 +1,20 @@
+# Experiments meta information
+name: 'cnn1'
+
+# Data configuration
+data:
+  batch_size: 32
+
+# Training parameters
+training:
+  optimizer: 'Adam'
+  learning_rate: 0.001
+  epochs: 10
+
+# # Evaluation settings
+# evaluation:
+#   evaluation_metric: 'accuracy'
+#   save_model: True
+
+saving:
+  dir: 'saved_models/'
